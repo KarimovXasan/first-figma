@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.logotip{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{    display: flex;
+    align-items: center;
+    column-gap: 30px;   
+}
+
+.nav-options{
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact{
+   border: none;
+   border-radius: 15px;
+   padding: 10px;
+   background-color: green;
+}
+
+/* main */
+h2{
+    text-align: center;
+}
+
+.card-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button1{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #EC8E3E;
+}
+
+.button2{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #0065AB;
+}
+
+.button3{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #99C207;
+}
+
+.button4{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #02C0BE;
+}
+
+[button5]{
+    border: none;
+    border-radius: 4px;
+    padding: 9px;
+    background-color: #01BABC;
+}
+
+[button6]{
+    border: none;
+    border-radius: 4px;
+    padding: 9px;
+    background-color: #FE4E62;
+}
+
+/* footer */
+hr{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 5px;
+   background-color: cadetblue;
+}
+
+#main-form{
+   display: flex;
+   justify-content: space-between;
+}
+
+[mainForml]{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-between;
+}
+
+[formaBTN]{
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+}
